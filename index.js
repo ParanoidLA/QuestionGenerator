@@ -72,7 +72,6 @@ function readQuestionsFromJSON(filePath) {
         questionStore.addQuestion(question);
       }
   
-      console.log('Question Store:', questionStore); // Debugging line
   
       return questionStore;
     } catch (error) {
